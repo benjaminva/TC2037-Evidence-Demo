@@ -2,8 +2,10 @@
 
 # Description
 The language I chose was all of the possible combinations of 1,2,3 but not  222
+
 This is just a toy example of a language but the rules it follows are similar to those used for… problem where … 
-I decided to use a Non-deterministic Finite Automata  NFA to represent my solutions since they are easier to model and are often used in the literature to model lexeme parsers as mentioned in (Dom et al 2033). 
+
+The modeling technique I decided to use was a Non-deterministic Finite Automata  (NFA) to represent my solutions since they are easier to model and are often used in the literature to model lexeme parsers as mentioned in (Dom et al 2033). 
 
 # Model of the Solution
 
@@ -20,7 +22,7 @@ The second automaton is used to represent all the numbers that start from 2 and 
 
 The third automaton is used when …. Etc… 
 
-I decided to use three different automata because it is easier to do this way,however using NFA I have to transform them to DFA to be able to program the latter or to migrate them to a RE more easily rather than try to guess them. To do that, I followed the method proposed in  (Sun et al 2054).  
+I decided to use three different automata because it is easier to do this way, however using NFA I have to transform them to DFA to be able to program the latter or to migrate them to a RE more easily rather than try to guess them. To do that, I followed the method proposed by (Sun et al 2054).  
 
 The resulting automaton was:
 
@@ -63,3 +65,10 @@ The complexity of my model is in general n, where n  is the length of the string
 This means that my time complexity in general remains as O(n) 
 
 My first approach was to use an automaton in prolog which is also a natural solution however following the recommendations I found in this link I preferred the Regular Expression because it is faster in the context of …..
+
+
+# References
+
+- Dom, Dim, and Dum (2033) "The magic of showing projects in github so student will feel less anxious about what they have to hand in as evidence", BENs Happy Books, 3rd edition, page 42.
+- Sun, Son, Sen, San, and Pepe (2054), "Git Gud at computer theory" available at www.gitgud.com/computers-tutorials_NFA_DFA_RE.
+
