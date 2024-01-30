@@ -5,7 +5,7 @@ The language I chose was all of the possible combinations of 1,2,3 but not  222
 
 This is just a toy example of a language but the rules it follows are similar to those used for… problem where … 
 
-The modeling technique I decided to use was a Non-deterministic Finite Automata  (NFA) to represent my solutions since they are easier to model and are often used in the literature to model lexeme parsers as mentioned in (Dom et al 2033). 
+The **modeling technique** I decided to use was a Non-deterministic Finite Automata  (NFA) to represent my solutions since they are easier to model and are often used in the literature to model lexeme parsers as mentioned in (Dom et al 2033). 
 
 # Model of the Solution
 
