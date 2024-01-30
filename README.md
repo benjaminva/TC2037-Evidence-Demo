@@ -60,20 +60,23 @@ The file tests.py contains all the cases tested for regular expressions.
 
 # Analysis
 
-The **complexity** of my model is in general n, where n  is the length of the string. To be processed, here is my explanation of why:
+The **complexity** of my model is in general n, where n  is the length of the string to be processed. Here is my proof by induction or hand analysis time complexity:
 
 
+     for i < n
+       if i in n
+        i ++
+       end
 ….  
 
 
-I used the regex library from Python which internally works the following way:
-This means that my time complexity in general remains as O(n) 
+I used the regex library from Python which internally according to the API documentation uses the algorithms from Unix to better parse... etc ... this means that my time complexity in general remains as O(n) 
 
-My first approach was to use an automaton in prolog which is also a natural solution however following the recommendations I found in this link I preferred the Regular Expression because it is faster in the context of …..
+My first approach to the **solution** was to use an automaton in prolog which is also a natural solution however following the recommendations I found in  (sun et al, 2054)  I preferred the Regular Expression because it is faster in the context of ... etc ... havinf an overall time of  O(log n)
 
 
 # References
 
-- Dom, Dim, and Dum (2033) "The magic of showing projects in github so student will feel less anxious about what they have to hand in as evidence", BENs Happy Books, 3rd edition, page 42.
+- Dom, Dim, and Dum (2033) "The magic of showing projects in GitHub so the student will feel less anxious about what they have to hand in as evidence", BENs Happy Books, 3rd edition, page 42.
 - Sun, Son, Sen, San, and Pepe (2054), "Git Gud at computer theory" available at www.gitgud.com/computers-tutorials_NFA_DFA_RE.
 
