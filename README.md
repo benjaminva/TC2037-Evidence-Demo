@@ -60,8 +60,13 @@ The file tests.py contains all the cases tested for regular expressions.
 
 # Analysis
 
-The complexity of my model is in general n, where n  is the length of the string. To be processed, here is my explanation of why:
-….  I used the regex library from Python which internally works the following way:
+The **complexity** of my model is in general n, where n  is the length of the string. To be processed, here is my explanation of why:
+
+
+….  
+
+
+I used the regex library from Python which internally works the following way:
 This means that my time complexity in general remains as O(n) 
 
 My first approach was to use an automaton in prolog which is also a natural solution however following the recommendations I found in this link I preferred the Regular Expression because it is faster in the context of …..
